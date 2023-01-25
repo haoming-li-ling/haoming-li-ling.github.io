@@ -3,7 +3,7 @@ layout: default
 title: Research - Haoming Li
 ---
 ## BA Thesis
-- 2022\. The Syntax and Semantics of Chinese Across-the-Board Constructions. University of Chicago. [manuscript](/files/ba_thesis.pdf)
+- 2022\. The Syntax and Semantics of Chinese Across-the-Board Constructions. University of Chicago. [manuscript](files/ba_thesis.pdf)
 
 ## Journal Articles
   - Accepted. Moving Heads to Specifiers: Evidence from Mandarin Multiple Pre-Subject Modals. *Natural Language and Linguistic Theory*. [manuscript](/files/NLLT21.pdf)
