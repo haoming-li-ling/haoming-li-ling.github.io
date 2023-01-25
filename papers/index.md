@@ -6,7 +6,7 @@ title: Research - Haoming Li
 - 2022\. *The Syntax and Semantics of Chinese Across-the-Board Constructions*. University of Chicago. [manuscript](/files/ba_thesis.pdf)
 
 ## Journal Articles
-  - Accepted. Moving Heads to Specifiers: Evidence from Mandarin Multiple Pre-Subject Modals. *Natural Language and Linguistic Theory*. [manuscript](/files/NLLT21.pdf)
+  - Accepted. With Jackie Yan-Ki Lai. Moving Heads to Specifiers: Evidence from Mandarin Multiple Pre-Subject Modals. *Natural Language and Linguistic Theory*. [manuscript](/files/NLLT21.pdf)
 
 ## Talks
   - Jan 2023. The Syntax and Semantics of Chinese Asymmetric Across-the-Board Constructions. North East Linguistics Society 53. [poster](/files/nels_atb_poster.pdf)
