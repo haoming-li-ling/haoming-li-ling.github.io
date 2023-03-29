@@ -1,8 +1,26 @@
+@font-face {
+  font-family: "Libertinus Sans";
+  src: url(/fonts/LibertinusSans-Regular.woff2) format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Libertinus Sans";
+  src: url(/fonts/LibertinusSans-Italic.woff2) format("woff2");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Libertinus Sans";
+  src: url(/fonts/LibertinusSans-Bold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: bold;
+}
 .container {
-  width: 800px;
+  /* width: 800px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 * {
-  font-family: 'Helvetica';
+  font-family: 'Libertinus Sans';
 }
 body {
   margin: 60px auto;
