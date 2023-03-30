@@ -1,18 +1,39 @@
 @font-face {
-  font-family: "Libertinus Sans";
+  font-family: "Libertinus Sans", sans-serif;
   src: url(/fonts/LibertinusSans-Regular.woff2) format("woff2");
   font-style: normal;
 }
 @font-face {
-  font-family: "Libertinus Sans";
+  font-family: "Libertinus Sans", sans-serif;
   src: url(/fonts/LibertinusSans-Italic.woff2) format("woff2");
   font-style: italic;
 }
 @font-face {
-  font-family: "Libertinus Sans";
+  font-family: "Libertinus Sans", sans-serif;
   src: url(/fonts/LibertinusSans-Bold.woff2) format("woff2");
   font-style: normal;
   font-weight: bold;
+}
+@font-face {
+  font-family: "Libertinus Serif", serif;
+  src: url(/fonts/LibertinusSerif-Regular.woff2) format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Libertinus Serif", serif;
+  src: url(/fonts/LibertinusSerif-Italic.woff2) format("woff2");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Libertinus Serif", serif;
+  src: url(/fonts/LibertinusSerif-Bold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "JetBrains Mono", monospace;
+  src: url(/fonts/JetBrainsMono-Medium.woff2) format("woff2");
+  font-style: normal;
 }
 .container {
   /* width: 800px; */
@@ -20,36 +41,51 @@
   margin-right: auto;
 }
 * {
-  font-family: 'Libertinus Sans';
+  font-family: "Libertinus Serif";
 }
 body {
   margin: 60px auto;
   width: 70%;
 }
-nav ul, footer ul {
-  /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+nav ul {
   padding: 0px;
   list-style: none;
   font-weight: bold;
 }
+footer ul {
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
 nav ul li, footer ul li {
   display: inline;
   margin-right: 20px;
 }
 a {
+  font-family: "JetBrains Mono", monospace;
   text-decoration: none;
-  color: #999;
+  color: #125a71;
+  font-size: 90%;
 }
 a:hover {
   text-decoration: underline;
 }
-h1 {
-  font-size: 2em;
+nav ul li a {
+  font-family: "Libertinus Sans";
+}
+footer ul li a {
+  font-size: 100%;
+}
+h1, h2, h3 {
+  /* font-size: 2em; */
+  font-family: "Libertinus Sans";
   /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
 }
 p {
   /* font-size: 1.5em; */
   /* line-height: 1.4em; */
+  font-family: "Libertinus Serif";
   color: #333;
 }
 footer {
