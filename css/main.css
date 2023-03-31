@@ -46,6 +46,7 @@
 body {
   margin: 60px auto;
   width: 70%;
+  max-width: 800px;
 }
 nav ul {
   padding: 0px;
@@ -71,9 +72,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
-nav ul li a {
-  font-family: "Libertinus Sans";
-}
+/* nav ul li a { */
+/*   font-family: "Libertinus Sans"; */
+/* } */
 footer ul li a {
   font-size: 100%;
 }
@@ -91,6 +92,7 @@ p {
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
+  margin-top: 20px;
 }
 
 ul.posts { 

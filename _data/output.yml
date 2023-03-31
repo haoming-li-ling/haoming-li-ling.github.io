@@ -1,0 +1,40 @@
+- section: BA Thesis
+  papers: 
+  - title: The Syntax and Semantics of Chinese Across-the-Board Constructions
+    date: 2022
+    publication: University of Chicago
+    type: manuscript
+    url: /files/ba_thesis.pdf
+- section: Journal Articles
+  papers:
+    - title: "Moving heads to specifiers: Evidence from Mandarin multiple pre-subject modals"
+      date: To appear
+      publication: Natural Language and Linguistic Theory
+      type: manuscript
+      url: /files/NLLT21.pdf
+      italic: true
+      author: Jackie Yan-Ki Lai, first author
+- section: Talks
+  papers:
+    - title: Mandarin clausal comparatives involve standard embedding
+      publication: West Coast Conference on Formal Linguistics 41
+      date: May 2023
+      type: poster
+      url: \#
+      author: Zhouyi Sun
+    - title: The syntax and semantics of Chinese asymmetric Across-the-Board construction
+      publication: Northeast Linguistics Society 53
+      date: Jan 2023
+      type: poster
+      url: /files/nels_atb_poster.pdf
+    - title: A head-to-specifier movement account of multiple pre-subject modals in Mandarin Chinese
+      publication: Society of Linguistics Undergraduate Students, University of Berkeley
+      date: Apr 2021
+      type: slides
+      url: /files/slides_for_calslugs.pdf
+    - title: New cartographic evidence for clause-medial position of low sentence-final aspect particles in Mandarin Chinese
+      publication: Cornell Undergraduate Linguistics Colloquium, Cornell University
+      date: May 2020
+      type: slides
+      url: /files/slides_for_culc14.pdf
+

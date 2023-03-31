@@ -1,0 +1,51 @@
+---
+layout: default
+title: Research - Haoming Li
+---
+
+<style>
+table {
+  width: 100%;
+  border-spacing: 5px;
+}
+td, th {
+  vertical-align: top;
+   border: none!important;
+}
+
+table td:first-of-type {
+  width: 10%;
+  text-align: right;
+}
+table td:last-of-type {
+  text-align: right;
+}
+</style>
+
+
+
+{% for section in site.data.output %}
+  <h2>{{ section.section }}</h2>
+  <table>
+    {% for item in section.papers %}
+      <tr>
+        <td>{{ item.date }}</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          <b>{{ item.title }}</b>.<br>
+            {% if item.italic %}
+              <em>{{ item.publication }}</em>.
+            {% else %}
+              {{ item.publication }}.
+            {% endif %}
+            {% if item.author %}
+              <br>With {{ item.author }}.
+            {% endif %}
+        </td>
+        <td><a href="{{ item.url }}">{{ item.type }}</a></td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endfor %}
+
+
