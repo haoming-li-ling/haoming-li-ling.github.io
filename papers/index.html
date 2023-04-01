@@ -33,7 +33,7 @@ table td:last-of-type {
         <td>&nbsp;&nbsp;&nbsp;</td>
         <td>
           <b>{{ item.title }}</b>.<br>
-            {% if item.italic %}
+            {% if section.section == "Journal Articles" %}
               <em>{{ item.publication }}</em>.
             {% else %}
               {{ item.publication }}.
