@@ -10,12 +10,14 @@ table {
 }
 td, th {
   vertical-align: top;
-   border: none!important;
+  border: none!important;
 }
 
 table td:first-of-type {
-  width: 10%;
-  text-align: right;
+  /* font-family: "Libertinus Sans"; */
+  font-weight: bold;
+  /* width: 10%; */
+  /* text-align: right; */
 }
 table td:last-of-type {
   text-align: right;
@@ -27,34 +29,42 @@ table td:last-of-type {
 {% for section in site.data.output %}
 <h2>{{ section.section }}</h2>
 <table>
-  {% for item in section.papers %}
-  <tr>
-    <td>{{ item.date }}</td>
-    <td>&nbsp;&nbsp;&nbsp;</td>
-    <td>
-      <b>{{ item.title }}</b>.<br>
-      {% if section.section == "Journal Articles" %}
-      <em>{{ item.publication }}</em>.
-      {% else %}
-      {{ item.publication }}.
-      {% endif %}
-      {% if item.author %}
-      <br>With {{ item.author }}.
-      {% endif %}
-      {% if item.supervisor %}
-      <br>Supervisor: {{ item.supervisor }}.
-      {% endif %}
-    </td>
-    <td>
-      {% for entry in item.resources %}
-      {%- if forloop.index != 1 -%}
-      <br>
-      {%- endif -%}
-      <a href="{{ entry.url }}">{{ entry.type }}</a>
-      {% endfor %}
-    </td>
-  </tr>
-  {% endfor %}
+  <colgroup>
+    <col style="width:5ex">
+    <col>
+    <col>
+  </colgroup>  
+  <tbody>
+    {% for item in section.papers %}
+    <tr>
+      <td class="date">{{ item.year }}</td>
+      <!-- <td>{{ item.month }}</td> -->
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>
+        <b class="title">{{ item.title }}</b>.
+        {% if section.section == "Journal Articles" %}
+        <br><em>{{ item.publication }}</em>.
+        {% else %}
+        <br>{{ item.publication }}.
+        {% endif %}
+        {% if item.author %}
+        <br>With {{ item.author }}.
+        {% endif %}
+        {% if item.supervisor %}
+        <br>Supervisor: {{ item.supervisor }}.
+        {% endif %}
+      </td>
+      <td>
+        {% for entry in item.resources %}
+        {%- if forloop.index != 1 -%}
+        <br>
+        {%- endif -%}
+        <a href="{{ entry.url }}">{{ entry.type }}</a>
+        {% endfor %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
 </table>
 {% endfor %}
 

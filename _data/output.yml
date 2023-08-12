@@ -1,7 +1,8 @@
 - section: Journal Articles
   papers:
     - title: "Moving heads to specifiers: Evidence from Mandarin multiple pre-subject modals"
-      date: Aug 2023
+      year: 2023
+      month: Aug
       publication: Natural Language and Linguistic Theory
       resources:
         - type: manuscript
@@ -13,7 +14,8 @@
   papers:
     - title: Mandarin clausal comparatives involve standard embedding
       publication: West Coast Conference on Formal Linguistics 41
-      date: May 2023
+      year: 2023
+      month: May 
       resources: 
         - type: manuscript
           url: /files/WCCFL_Paper.pdf
@@ -22,26 +24,29 @@
       author: Zhouyi Sun
     - title: The syntax and semantics of Chinese asymmetric Across-the-Board construction
       publication: Northeast Linguistics Society 53
-      date: Jan 2023
+      year: 2023
+      month: Jan 
       resources: 
         - type: poster
           url: /files/nels_atb_poster.pdf
     - title: A head-to-specifier movement account of multiple pre-subject modals in Mandarin Chinese
       publication: Society of Linguistics Undergraduate Students, University of Berkeley
-      date: Apr 2021
+      year: 2021
+      month: Apr 
       resources:
         - type: slides
           url: /files/slides_for_calslugs.pdf
     - title: New cartographic evidence for clause-medial position of low sentence-final aspect particles in Mandarin Chinese
       publication: Cornell Undergraduate Linguistics Colloquium, Cornell University
-      date: May 2020
+      year: 2020
+      month: May 
       resources:
         - type: slides
           url: /files/slides_for_culc14.pdf
 - section: BA Thesis
   papers: 
     - title: The Syntax and Semantics of Chinese Across-the-Board Constructions
-      date: 2022
+      year: 2022
       publication: University of Chicago
       resources:
         - type: manuscript
