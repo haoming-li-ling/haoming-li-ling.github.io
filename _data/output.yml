@@ -5,7 +5,7 @@
       month: Aug
       publication: Natural Language and Linguistic Theory
       resources:
-        - type: manuscript
+        - type: paper
           url: /files/NLLT21.pdf
         - type: link
           url: https://link.springer.com/article/10.1007/s11049-023-09579-0
@@ -17,7 +17,7 @@
       year: 2023
       month: May 
       resources: 
-        - type: manuscript
+        - type: paper
           url: /files/WCCFL_Paper.pdf
         - type: handout
           url: /files/WCCFL_Handout.pdf
@@ -49,6 +49,6 @@
       year: 2022
       publication: University of Chicago
       resources:
-        - type: manuscript
+        - type: paper
           url: /files/ba_thesis.pdf
       supervisor: Karlos Arregi
