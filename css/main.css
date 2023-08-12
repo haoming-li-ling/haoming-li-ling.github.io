@@ -31,7 +31,7 @@
   font-weight: bold;
 }
 @font-face {
-  font-family: "JetBrains Mono", monospace;
+  font-family: "JB";
   src: url("/fonts/JetBrainsMono-Medium.woff2") format("woff2"), url("/fonts/JetBrainsMono-Medium.ttf") format("truetype");
   font-style: normal;
 }
@@ -42,7 +42,7 @@
 }
 * {
   /* font-family: "Libertinus Serif"; */
-  font-family: "JetBrains Mono", monospace;
+  font-family: "JB";
   color: #c1c8e5;
   background: #202136;
   /* font-size: 90%; */
@@ -69,7 +69,7 @@ nav ul li, footer ul li {
   margin-right: 20px;
 }
 a {
-  /* font-family: "JetBrains Mono", monospace; */
+  /* font-family: "JB", monospace; */
   text-decoration: none;
   /* color: #125a71; */
   color: #7a9fd9;
