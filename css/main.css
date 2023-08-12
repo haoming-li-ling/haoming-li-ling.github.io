@@ -81,6 +81,25 @@ ul.posts li {
   list-style: none;
 }
 
+table {
+  width: 100%;
+  border-spacing: 5px;
+}
+td, th {
+  vertical-align: top;
+  border: none!important;
+}
+
+table td:first-of-type {
+  /* font-family: "Libertinus Sans"; */
+  font-weight: bold;
+  /* width: 10%; */
+  /* text-align: right; */
+}
+table td:last-of-type {
+  text-align: right;
+}
+
 @font-face {
   font-family: "Libertinus Sans", sans-serif;
   src: url(/fonts/LibertinusSans-Regular.woff2) format("woff2");
