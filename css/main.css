@@ -1,3 +1,40 @@
+@font-face {
+  font-family: "Libertinus Sans", sans-serif;
+  src: url(/fonts/LibertinusSans-Regular.woff2) format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Libertinus Sans", sans-serif;
+  src: url(/fonts/LibertinusSans-Italic.woff2) format("woff2");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Libertinus Sans", sans-serif;
+  src: url(/fonts/LibertinusSans-Bold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Libertinus Serif", serif;
+  src: url(/fonts/LibertinusSerif-Regular.woff2) format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Libertinus Serif", serif;
+  src: url(/fonts/LibertinusSerif-Italic.woff2) format("woff2");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Libertinus Serif", serif;
+  src: url(/fonts/LibertinusSerif-Bold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "JetBrains Mono", monospace;
+  src: url("/fonts/JetBrainsMono-Medium.woff2") format("woff2"), url("/fonts/JetBrainsMono-Medium.ttf") format("truetype");
+  font-style: normal;
+}
 .container {
   /* width: 800px; */
   margin-left: auto;
@@ -67,7 +104,7 @@ p {
   /* color: #333; */
 }
 footer {
-  border-top: 1px solid #d5d5d5;
+  /* border-top: 1px solid #d5d5d5; */
   font-size: .8em;
   margin-top: 20px;
 }
@@ -100,40 +137,3 @@ table td:last-of-type {
   text-align: right;
 }
 
-@font-face {
-  font-family: "Libertinus Sans", sans-serif;
-  src: url(/fonts/LibertinusSans-Regular.woff2) format("woff2");
-  font-style: normal;
-}
-@font-face {
-  font-family: "Libertinus Sans", sans-serif;
-  src: url(/fonts/LibertinusSans-Italic.woff2) format("woff2");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Libertinus Sans", sans-serif;
-  src: url(/fonts/LibertinusSans-Bold.woff2) format("woff2");
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Libertinus Serif", serif;
-  src: url(/fonts/LibertinusSerif-Regular.woff2) format("woff2");
-  font-style: normal;
-}
-@font-face {
-  font-family: "Libertinus Serif", serif;
-  src: url(/fonts/LibertinusSerif-Italic.woff2) format("woff2");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Libertinus Serif", serif;
-  src: url(/fonts/LibertinusSerif-Bold.woff2) format("woff2");
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  font-family: "JetBrains Mono", monospace;
-  src: url(/fonts/JetBrainsMono-Medium.woff2) format("woff2");
-  font-style: normal;
-}
