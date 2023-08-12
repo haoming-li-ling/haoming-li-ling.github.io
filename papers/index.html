@@ -45,7 +45,14 @@ table td:last-of-type {
       <br>Supervisor: {{ item.supervisor }}.
       {% endif %}
     </td>
-    <td><a href="{{ item.url }}">{{ item.type }}</a></td>
+    <td>
+      {% for entry in item.resources %}
+      {%- if forloop.index != 1 -%}
+      <br>
+      {%- endif -%}
+      <a href="{{ entry.url }}">{{ entry.type }}</a>
+      {% endfor %}
+    </td>
   </tr>
   {% endfor %}
 </table>
