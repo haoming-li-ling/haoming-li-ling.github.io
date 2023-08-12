@@ -51,8 +51,8 @@
 body {
   margin: 60px auto;
   width: 70%;
-  min-width: 300px;
-  max-width: 800px;
+  min-width: 300pt;
+  max-width: 800pt;
 }
 nav ul {
   padding: 0px;
