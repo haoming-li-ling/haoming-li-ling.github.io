@@ -1,31 +1,31 @@
 @font-face {
-  font-family: "Libertinus Sans", sans-serif;
+  font-family: "Libertinus Sans";
   src: url(/fonts/LibertinusSans-Regular.woff2) format("woff2");
   font-style: normal;
 }
 @font-face {
-  font-family: "Libertinus Sans", sans-serif;
+  font-family: "Libertinus Sans";
   src: url(/fonts/LibertinusSans-Italic.woff2) format("woff2");
   font-style: italic;
 }
 @font-face {
-  font-family: "Libertinus Sans", sans-serif;
+  font-family: "Libertinus Sans";
   src: url(/fonts/LibertinusSans-Bold.woff2) format("woff2");
   font-style: normal;
   font-weight: bold;
 }
 @font-face {
-  font-family: "Libertinus Serif", serif;
+  font-family: "Libertinus Serif";
   src: url(/fonts/LibertinusSerif-Regular.woff2) format("woff2");
   font-style: normal;
 }
 @font-face {
-  font-family: "Libertinus Serif", serif;
+  font-family: "Libertinus Serif";
   src: url(/fonts/LibertinusSerif-Italic.woff2) format("woff2");
   font-style: italic;
 }
 @font-face {
-  font-family: "Libertinus Serif", serif;
+  font-family: "Libertinus Serif";
   src: url(/fonts/LibertinusSerif-Bold.woff2) format("woff2");
   font-style: normal;
   font-weight: bold;
