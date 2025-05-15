@@ -12,6 +12,28 @@
       author: Jackie Yan-Ki Lai, first author
 - section: Talks
   papers:
+    - title: Modal presupposition and probability-sensitivity of negated indefinites
+      publication: Sinn und Bedeutung 30
+      year: 2025
+      author: Yizhen Jiang
+    - title: "Passamaquoddy quantifiers: outlier of distributivity-number generalization?"
+      publication: Sinn und Bedeutung 30
+      year: 2025
+      author: James Cooper Roberts and Yizhen Jiang
+    - title: Modal presupposition and probability-sensitivity of negated indefinites
+      publication: Chicago Linguistic Society 61
+      year: 2025
+      resources:
+        - type: slides
+          url: /files/modal_presup_cls_slides.pdf
+      author: Yizhen Jiang
+    - title: "Passamaquoddy quantifiers: outlier of distributivity-number generalization?"
+      publication: Chicago Linguistic Society 61
+      year: 2025
+      resources:
+        - type: poster
+          url: /files/cls_poster_passamaquoddy.pdf
+      author: James Cooper Roberts and Yizhen Jiang
     - title: Diagnosing modal clause structure with focus-sensitive operators in Mandarin Chinese
       publication: West Coast Conference on Formal Linguistics 43
       year: 2025
