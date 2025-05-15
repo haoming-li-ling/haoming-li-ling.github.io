@@ -15,10 +15,12 @@
     - title: Modal presupposition and probability-sensitivity of negated indefinites
       publication: Sinn und Bedeutung 30
       year: 2025
+      month: Sep
       author: Yizhen Jiang
     - title: "Passamaquoddy quantifiers: outlier of distributivity-number generalization?"
       publication: Sinn und Bedeutung 30
       year: 2025
+      month: Sep
       author: James Cooper Roberts and Yizhen Jiang
     - title: Modal presupposition and probability-sensitivity of negated indefinites
       publication: Chicago Linguistic Society 61
@@ -30,6 +32,7 @@
     - title: "Passamaquoddy quantifiers: outlier of distributivity-number generalization?"
       publication: Chicago Linguistic Society 61
       year: 2025
+      month: May
       resources:
         - type: poster
           url: /files/cls_poster_passamaquoddy.pdf
@@ -45,10 +48,20 @@
       publication: Sinn und Bedeutung 29
       year: 2024
       month: Sep
+      resources:
+        - type: paper
+          url: /files/permission_sub_paper.pdf
+        - type: poster
+          url: /files/permission_sub_poster.pdf
     - title: <i>Dou</i> as <i>even</i> and plural universal quantification in Mandarin Chinese
       publication: North East Linguistics Society 54
       year: 2024
       month: Jan
+      resources:
+        - type: paper
+          url: /files/dou_uni_nels_paper.pdf
+        - type: poster
+          url: /files/dou_uni_nels_poster.pdf
     - title: Mandarin clausal comparatives involve standard embedding
       publication: West Coast Conference on Formal Linguistics 41
       year: 2023
