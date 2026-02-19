@@ -38,7 +38,7 @@
 
 @font-face {
   font-family: "IO";
-  src: url("/fonts/SGr-Iosevka-Regular.ttc") format("truetype");
+  src: url("/fonts/SGr-Iosevka-Regular.ttc") format("collection");
   font-style: normal;
 }
 
