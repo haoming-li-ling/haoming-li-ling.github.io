@@ -20,14 +20,22 @@
       resources:
         - type: paper
           url: /files/modal_sub.pdf
-    - title: "Passamaquoddy quantifiers: outlier of distributivity-number generalization?"
+    - title: "Passamaquoddy quantifiers: Outlier of distributivity-number generalization?"
       publication: Sinn und Bedeutung 30
       year: 2025
       month: Sep
-      author: James Cooper Roberts and Yizhen Jiang
+      author: James Cooper Roberts, firth author, and Yizhen Jiang
       resources: 
         - type: paper
           url: /files/sub_passamaquoddy.pdf
+    - title: "How to talk about groups in a language without group nouns: The case of Passamaquoddy" 
+      publication: TripleA 12
+      year: 2025
+      month: Sep
+      author: James Cooper Roberts and Yizhen Jiang
+      resources:
+        - type: handout
+          url: /files/tripleA_passamaquoddy.pdf
     - title: Modal presupposition and probability-sensitivity of negated indefinites
       publication: Chicago Linguistic Society 61
       year: 2025
