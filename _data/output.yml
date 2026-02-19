@@ -17,11 +17,17 @@
       year: 2025
       month: Sep
       author: Yizhen Jiang
+      resources:
+        - type: paper
+          url: /files/modal_sub.pdf
     - title: "Passamaquoddy quantifiers: outlier of distributivity-number generalization?"
       publication: Sinn und Bedeutung 30
       year: 2025
       month: Sep
       author: James Cooper Roberts and Yizhen Jiang
+      resources: 
+        - type: paper
+          url: /files/sub_passamaquoddy.pdf
     - title: Modal presupposition and probability-sensitivity of negated indefinites
       publication: Chicago Linguistic Society 61
       year: 2025
