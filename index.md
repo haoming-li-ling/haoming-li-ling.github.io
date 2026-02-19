@@ -3,7 +3,7 @@ layout: default
 title: Haoming Li's Homepage
 ---
 # Haoming Li
-I'm a third-year Ph.D. student in linguistics at the Massachusetts Institute of Technology. I received B.A. in Linguistics from the University of Chicago in 2022.
+I'm a fourth-year Ph.D. student in linguistics at the Massachusetts Institute of Technology. I received B.A. in Linguistics from the University of Chicago in 2022.
 
 My main areas of interest are semantics, pragmatics, syntax, and their interfaces. 
 
