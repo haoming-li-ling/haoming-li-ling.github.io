@@ -12,6 +12,14 @@
       author: Jackie Yan-Ki Lai, first author
 - section: Talks
   papers:
+    - title: "Infelicity of negated bare plurals: Not presupposition, but Partition by Exhaustification"
+      publication: Semantics and Linguistic Theory 36
+      year: 2026
+      month: Jul
+      author: Yizhen Jiang
+      resources:
+        - type: slides
+          url: /files/salt_bare_plurals.pdf
     - title: Modal presupposition and probability-sensitivity of negated indefinites
       publication: Sinn und Bedeutung 30
       year: 2025
