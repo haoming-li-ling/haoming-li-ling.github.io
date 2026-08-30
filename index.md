@@ -19,3 +19,45 @@ Specific topics I have covered include:
 - *wh*-questions
 - syntax of Mandarin Chinese
 
+
+{% for section in site.data.output %}
+<h2>{{ section.section }}</h2>
+<table>
+  <colgroup>
+    <col style="width:5ex">
+    <col>
+    <col>
+  </colgroup>  
+  <tbody>
+    {% for item in section.papers %}
+    <tr>
+      <td class="date">{{ item.year }}</td>
+      <!-- <td>{{ item.month }}</td> -->
+      <!-- <td>&nbsp;&nbsp;&nbsp;</td> -->
+      <td>
+        <b class="title">{{ item.title }}</b>
+        {% if section.section == "Journal Articles" %}
+        <br><em>{{ item.publication }}</em>
+        {% else %}
+        <br>{{ item.publication }}
+        {% endif %}
+        {% if item.author %}
+        <br>With {{ item.author }}
+        {% endif %}
+        {% if item.supervisor %}
+        <br>Supervisor: {{ item.supervisor }}
+        {% endif %}
+      </td>
+      <td>
+        {% for entry in item.resources %}
+        {%- if forloop.index != 1 -%}
+        <br>
+        {%- endif -%}
+        <a href="{{ entry.url }}">{{ entry.type }}</a>
+        {% endfor %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endfor %}
