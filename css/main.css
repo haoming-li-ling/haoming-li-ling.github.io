@@ -1,28 +1,28 @@
 @font-face {
-  font-family: "Libertinus Sans";
-  src: url(/fonts/LibertinusSans-Regular.woff2) format("woff2");
-  font-style: normal;
+	font-family: "Libertinus Sans";
+	src: url(/fonts/LibertinusSans-Regular.woff2) format("woff2");
+	font-style: normal;
 }
 @font-face {
-  font-family: "Libertinus Sans";
-  src: url(/fonts/LibertinusSans-Italic.woff2) format("woff2");
-  font-style: italic;
+	font-family: "Libertinus Sans";
+	src: url(/fonts/LibertinusSans-Italic.woff2) format("woff2");
+	font-style: italic;
 }
 @font-face {
-  font-family: "Libertinus Sans";
-  src: url(/fonts/LibertinusSans-Bold.woff2) format("woff2");
-  font-style: normal;
-  font-weight: bold;
+	font-family: "Libertinus Sans";
+	src: url(/fonts/LibertinusSans-Bold.woff2) format("woff2");
+	font-style: normal;
+	font-weight: bold;
 }
 @font-face {
-  font-family: "Libertinus Serif";
-  src: url(/fonts/LibertinusSerif-Regular.woff2) format("woff2");
-  font-style: normal;
+	font-family: "Libertinus Serif";
+	src: url(/fonts/LibertinusSerif-Regular.woff2) format("woff2");
+	font-style: normal;
 }
 @font-face {
-  font-family: "Libertinus Serif";
-  src: url(/fonts/LibertinusSerif-Italic.woff2) format("woff2");
-  font-style: italic;
+	font-family: "Libertinus Serif";
+	src: url(/fonts/LibertinusSerif-Italic.woff2) format("woff2");
+	font-style: italic;
 }
 /* @font-face { */
 /*   font-family: "Libertinus Serif"; */
@@ -39,110 +39,168 @@
 /* @font-face { */
 /*   font-family: "IO"; */
 /*   src: url("/fonts/SGr-Iosevka-Regular.ttc") format("collection"); */
-/*   /* font-style: normal; */ */
+/* font-style: normal; */
 /* } */
 
 .container {
-  /* width: 800px; */
-  margin-left: auto;
-  margin-right: auto;
+	/* width: 800px; */
+	margin-left: auto;
+	margin-right: auto;
 }
 * {
-  /* font-family: "Libertinus Serif"; */
-  font-family: "Iosevka Web";
-  color: #c1c8e5;
-  background: #202136;
-  /* font-size: 90%; */
-  /* font-size: 9pt; */
+	/* font-family: "Libertinus Serif"; */
+	font-family: "Iosevka Web";
+	color: #c1c8e5;
+	background: #202136;
+	/* font-size: 90%; */
+	/* font-size: 9pt; */
 }
 body {
-  margin: 60px auto;
-  width: 70%;
-  min-width: 400px;
-  max-width: 800px;
+	margin: 60px auto;
+	width: 70%;
+	min-width: 400px;
+	max-width: 800px;
 }
 nav ul {
-  padding: 0px;
-  list-style: none;
-  font-weight: bold;
+	padding: 0px;
+	list-style: none;
+	font-weight: bold;
 }
 footer ul {
-  padding: 0px;
-  list-style: none;
-  font-weight: bold;
+	padding: 0px;
+	list-style: none;
+	font-weight: bold;
 }
 
-nav ul li, footer ul li {
-  display: inline;
-  margin-right: 20px;
+nav ul li,
+footer ul li {
+	display: inline;
+	margin-right: 20px;
 }
-i { color: inherit; }
+
+.topic-nav-list {
+	display: none;
+	margin-top: 10px;
+}
+
+.topics-nav:hover .topic-nav-list,
+.topics-nav:focus-within .topic-nav-list {
+	display: block;
+}
+
+.topic-nav-list li {
+	display: block;
+	margin: 0 0 6px;
+	font-weight: normal;
+}
+
+@media (min-width: 960px) {
+	body {
+		margin: 60px 40px 60px 180px;
+		width: auto;
+		min-width: 0;
+		max-width: 800px;
+	}
+
+	nav {
+		position: fixed;
+		top: 60px;
+		left: 24px;
+		width: 120px;
+		text-align: right;
+	}
+
+	nav ul li {
+		display: block;
+		margin: 0 0 10px;
+	}
+}
+
+@media (min-width: 1280px) {
+	body {
+		margin: 60px auto;
+		width: 70%;
+	}
+
+	nav {
+		left: calc(50% - 560px);
+	}
+}
+i {
+	color: inherit;
+}
 a {
-  /* font-family: "JB", monospace; */
-  text-decoration: none;
-  /* color: #125a71; */
-  color: #7a9fd9;
-  /* font-size: 90%; */
+	/* font-family: "JB", monospace; */
+	text-decoration: none;
+	/* color: #125a71; */
+	color: #7a9fd9;
+	/* font-size: 90%; */
 }
 a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 /* nav ul li a { */
 /*   font-family: "Libertinus Sans"; */
 /* } */
 /* footer ul li a { */
-  /* font-size: 100%; */
+/* font-size: 100%; */
 /* } */
 .date {
-  color: #d7abfd;
+	color: #d7abfd;
+}
+.topics li::marker {
+	color: #d7abfd;
 }
 .title {
-  color: #b8c0fd;
+	color: #b8c0fd;
 }
-h1, h2, h3 {
-  /* font-size: 2em; */
-  /* font-family: "Libertinus Sans"; */
-  /* color: #ffb98c; */
-  color: #90bcff;
-  /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+h1,
+h2,
+h3 {
+	/* font-size: 2em; */
+	/* font-family: "Libertinus Sans"; */
+	/* color: #ffb98c; */
+	color: #90bcff;
+	/* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
 }
 /* p { */
-  /* font-size: 1.5em; */
-  /* line-height: 1.4em; */
-  /* font-family: "Libertinus Serif"; */
-  /* color: #333; */
+/* font-size: 1.5em; */
+/* line-height: 1.4em; */
+/* font-family: "Libertinus Serif"; */
+/* color: #333; */
 /* } */
 footer {
-  /* border-top: 1px solid #d5d5d5; */
-  font-size: .8em;
-  margin-top: 20px;
+	/* border-top: 1px solid #d5d5d5; */
+	font-size: 0.8em;
+	margin-top: 20px;
 }
 
-ul.posts { 
-  margin: 20px auto 40px; 
-  /* font-size: 1.5em; */
+ul.posts {
+	margin: 20px auto 40px;
+	/* font-size: 1.5em; */
 }
 
 ul.posts li {
-  list-style: none;
+	list-style: none;
 }
 
 table {
-  width: 100%;
-  border-spacing: 5px;
+	width: 100%;
+	border-spacing: 5px;
 }
-td, th {
-  vertical-align: top;
-  border: none!important;
+
+td,
+th {
+	vertical-align: top;
+	border: none !important;
 }
 
 table td:first-of-type {
-  /* font-family: "Libertinus Sans"; */
-  font-weight: bold;
-  /* width: 10%; */
-  /* text-align: right; */
+	/* font-family: "Libertinus Sans"; */
+	font-weight: bold;
+	/* width: 10%; */
+	/* text-align: right; */
 }
 table td:last-of-type {
-  text-align: right;
+	text-align: right;
 }
-

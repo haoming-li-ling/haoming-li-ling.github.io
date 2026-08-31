@@ -1,126 +1,137 @@
-- section: Journal Articles
-  papers:
-    - title: "Moving heads to specifiers: Evidence from Mandarin multiple pre-subject modals"
-      year: 2023
-      month: Aug
-      publication: Natural Language and Linguistic Theory
-      resources:
-        - type: paper
-          url: /files/NLLT21.pdf
-        - type: link
-          url: https://link.springer.com/article/10.1007/s11049-023-09579-0
-      author: Jackie Yan-Ki Lai, first author
-- section: Talks
-  papers:
-    - title: "Infelicity of negated bare plurals: Not presupposition, but Partition by Exhaustification"
-      publication: Semantics and Linguistic Theory 36
-      year: 2026
-      month: Jul
-      author: Yizhen Jiang
-      resources:
-        - type: slides
-          url: /files/salt_bare_plurals.pdf
-    - title: Modal presupposition and probability-sensitivity of negated indefinites
-      publication: Sinn und Bedeutung 30
-      year: 2025
-      month: Sep
-      author: Yizhen Jiang
-      resources:
-        - type: paper
-          url: /files/modal_sub.pdf
-    - title: "Passamaquoddy quantifiers: Outlier of distributivity-number generalization?"
-      publication: Sinn und Bedeutung 30
-      year: 2025
-      month: Sep
-      author: James Cooper Roberts, firth author, and Yizhen Jiang
-      resources: 
-        - type: paper
-          url: /files/sub_passamaquoddy.pdf
-    - title: "How to talk about groups in a language without group nouns: The case of Passamaquoddy" 
-      publication: TripleA 12
-      year: 2025
-      month: Sep
-      author: James Cooper Roberts and Yizhen Jiang
-      resources:
-        - type: handout
-          url: /files/tripleA_passamaquoddy.pdf
-    - title: Modal presupposition and probability-sensitivity of negated indefinites
-      publication: Chicago Linguistic Society 61
-      year: 2025
-      resources:
-        - type: slides
-          url: /files/modal_presup_cls_slides.pdf
-      author: Yizhen Jiang
-    - title: "Passamaquoddy quantifiers: outlier of distributivity-number generalization?"
-      publication: Chicago Linguistic Society 61
-      year: 2025
-      month: May
-      resources:
-        - type: poster
-          url: /files/cls_poster_passamaquoddy.pdf
-      author: James Cooper Roberts and Yizhen Jiang
-    - title: Diagnosing modal clause structure with focus-sensitive operators in Mandarin Chinese
-      publication: West Coast Conference on Formal Linguistics 43
-      year: 2025
-      month: Apr
-      resources:
-        - type: poster
-          url: /files/dou_syntax_wccfl_poster.pdf
-    - title: The case for the strong and conditional analysis of permission
-      publication: Sinn und Bedeutung 29
-      year: 2024
-      month: Sep
-      resources:
-        - type: paper
-          url: /files/permission_sub_paper.pdf
-        - type: poster
-          url: /files/permission_sub_poster.pdf
-    - title: <i>Dou</i> as <i>even</i> and plural universal quantification in Mandarin Chinese
-      publication: North East Linguistics Society 54
-      year: 2024
-      month: Jan
-      resources:
-        - type: paper
-          url: /files/dou_uni_nels_paper.pdf
-        - type: poster
-          url: /files/dou_uni_nels_poster.pdf
-    - title: Mandarin clausal comparatives involve standard embedding
-      publication: West Coast Conference on Formal Linguistics 41
-      year: 2023
-      month: May 
-      resources: 
-        - type: paper
-          url: /files/WCCFL_Paper.pdf
-        - type: handout
-          url: /files/WCCFL_Handout.pdf
-      author: Zhouyi Sun
-    - title: The syntax and semantics of Chinese asymmetric Across-the-Board construction
-      publication: North East Linguistics Society 53
-      year: 2023
-      month: Jan 
-      resources: 
-        - type: poster
-          url: /files/nels_atb_poster.pdf
-    - title: A head-to-specifier movement account of multiple pre-subject modals in Mandarin Chinese
-      publication: Society of Linguistics Undergraduate Students, University of California, Berkeley
-      year: 2021
-      month: Apr 
-      resources:
-        - type: slides
-          url: /files/slides_for_calslugs.pdf
-    - title: New cartographic evidence for clause-medial position of low sentence-final aspect particles in Mandarin Chinese
-      publication: Cornell Undergraduate Linguistics Colloquium
-      year: 2020
-      month: May 
-      resources:
-        - type: slides
-          url: /files/slides_for_culc14.pdf
-- section: BA Thesis
-  papers: 
-    - title: The Syntax and Semantics of Chinese Across-the-Board Constructions
-      year: 2022
-      publication: University of Chicago
-      resources:
-        - type: paper
-          url: /files/ba_thesis.pdf
-      supervisor: Karlos Arregi
+- title: "Moving heads to specifiers: Evidence from Mandarin multiple pre-subject modals"
+  category: Journal Article
+  topics: [modality, Mandarin syntax]
+  date: "2023-08"
+  publication: Natural Language and Linguistic Theory
+  resources:
+    - type: paper
+      url: /files/NLLT21.pdf
+    - type: link
+      url: https://link.springer.com/article/10.1007/s11049-023-09579-0
+  author: Jackie Yan-Ki Lai, first author
+- title: "Infelicity of negated bare plurals: Not presupposition, but Partition by Exhaustification"
+  category: Talk
+  topics: [plurality, focus, implicatures]
+  date: "2026-07"
+  publication: Semantics and Linguistic Theory 36
+  author: Yizhen Jiang
+  resources:
+    - type: slides
+      url: /files/salt_bare_plurals.pdf
+- title: Modal presupposition and probability-sensitivity of negated indefinites
+  category: Talk
+  topics: [implicatures]
+  date: "2025-09"
+  publication: Sinn und Bedeutung 30
+  author: Yizhen Jiang
+  resources:
+    - type: paper
+      url: /files/modal_sub.pdf
+- title: "Passamaquoddy quantifiers: Outlier of distributivity-number generalization?"
+  category: Talk
+  topics: [plurality]
+  date: "2025-09"
+  publication: Sinn und Bedeutung 30
+  author: James Cooper Roberts, firth author, and Yizhen Jiang
+  resources:
+    - type: paper
+      url: /files/sub_passamaquoddy.pdf
+- title: "How to talk about groups in a language without group nouns: The case of Passamaquoddy"
+  category: Talk
+  topics: [plurality]
+  date: "2025-09"
+  publication: TripleA 12
+  author: James Cooper Roberts and Yizhen Jiang
+  resources:
+    - type: handout
+      url: /files/tripleA_passamaquoddy.pdf
+- title: Modal presupposition and probability-sensitivity of negated indefinites
+  category: Talk
+  topics: [implicatures]
+  date: "2025-00"
+  publication: Chicago Linguistic Society 61
+  resources:
+    - type: slides
+      url: /files/modal_presup_cls_slides.pdf
+  author: Yizhen Jiang
+- title: "Passamaquoddy quantifiers: outlier of distributivity-number generalization?"
+  category: Talk
+  topics: [plurality]
+  date: "2025-05"
+  publication: Chicago Linguistic Society 61
+  resources:
+    - type: poster
+      url: /files/cls_poster_passamaquoddy.pdf
+  author: James Cooper Roberts and Yizhen Jiang
+- title: Diagnosing modal clause structure with focus-sensitive operators in Mandarin Chinese
+  category: Talk
+  topics: [modality, Mandarin syntax, focus]
+  date: "2025-04"
+  publication: West Coast Conference on Formal Linguistics 43
+  resources:
+    - type: poster
+      url: /files/dou_syntax_wccfl_poster.pdf
+- title: The case for the strong and conditional analysis of permission
+  category: Talk
+  topics: [modality, implicatures]
+  date: "2024-09"
+  publication: Sinn und Bedeutung 29
+  resources:
+    - type: paper
+      url: /files/permission_sub_paper.pdf
+    - type: poster
+      url: /files/permission_sub_poster.pdf
+- title: <i>Dou</i> as <i>even</i> and plural universal quantification in Mandarin Chinese
+  category: Talk
+  topics: [plurality, Mandarin syntax, focus]
+  date: "2024-01"
+  publication: North East Linguistics Society 54
+  resources:
+    - type: paper
+      url: /files/dou_uni_nels_paper.pdf
+    - type: poster
+      url: /files/dou_uni_nels_poster.pdf
+- title: Mandarin clausal comparatives involve standard embedding
+  category: Talk
+  topics: [comparatives, Mandarin syntax]
+  date: "2023-05"
+  publication: West Coast Conference on Formal Linguistics 41
+  resources:
+    - type: paper
+      url: /files/WCCFL_Paper.pdf
+    - type: handout
+      url: /files/WCCFL_Handout.pdf
+  author: Zhouyi Sun
+- title: The syntax and semantics of Chinese asymmetric Across-the-Board construction
+  category: Talk
+  topics: [Mandarin syntax]
+  date: "2023-01"
+  publication: North East Linguistics Society 53
+  resources:
+    - type: poster
+      url: /files/nels_atb_poster.pdf
+- title: A head-to-specifier movement account of multiple pre-subject modals in Mandarin Chinese
+  category: Talk
+  topics: [modality, Mandarin syntax]
+  date: "2021-04"
+  publication: Society of Linguistics Undergraduate Students, University of California, Berkeley
+  resources:
+    - type: slides
+      url: /files/slides_for_calslugs.pdf
+- title: New cartographic evidence for clause-medial position of low sentence-final aspect particles in Mandarin Chinese
+  category: Talk
+  topics: [Mandarin syntax]
+  date: "2020-05"
+  publication: Cornell Undergraduate Linguistics Colloquium
+  resources:
+    - type: slides
+      url: /files/slides_for_culc14.pdf
+- title: The Syntax and Semantics of Chinese Across-the-Board Constructions
+  category: BA Thesis
+  topics: [Mandarin syntax]
+  date: "2022-00"
+  publication: University of Chicago
+  resources:
+    - type: paper
+      url: /files/ba_thesis.pdf
+  supervisor: Karlos Arregi

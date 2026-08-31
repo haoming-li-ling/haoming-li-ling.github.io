@@ -18,10 +18,12 @@ Specific topics I have covered include:
 - Across-the-Board constructions
 - *wh*-questions
 - syntax of Mandarin Chinese
+{: .topics}
 
 
-{% for section in site.data.output %}
-<h2>{{ section.section }}</h2>
+{% assign output_by_category = site.data.output | group_by: "category" %}
+{% for section in output_by_category %}
+<h2>{% if section.name == "Journal Article" %}Journal Articles{% elsif section.name == "Talk" %}Talks{% else %}{{ section.name }}{% endif %}</h2>
 <table>
   <colgroup>
     <col style="width:5ex">
@@ -29,14 +31,14 @@ Specific topics I have covered include:
     <col>
   </colgroup>  
   <tbody>
-    {% for item in section.papers %}
+    {% assign items_by_date = section.items | sort: "date" | reverse %}
+    {% for item in items_by_date %}
     <tr>
-      <td class="date">{{ item.year }}</td>
-      <!-- <td>{{ item.month }}</td> -->
+      <td class="date">{{ item.date | slice: 0, 4 }}</td>
       <!-- <td>&nbsp;&nbsp;&nbsp;</td> -->
       <td>
         <b class="title">{{ item.title }}</b>
-        {% if section.section == "Journal Articles" %}
+        {% if item.category == "Journal Article" %}
         <br><em>{{ item.publication }}</em>
         {% else %}
         <br>{{ item.publication }}

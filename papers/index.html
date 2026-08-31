@@ -2,8 +2,10 @@
 layout: default
 title: Research - Haoming Li
 ---
-{% for section in site.data.output %}
-<h2>{{ section.section }}</h2>
+{% assign topics = "implicatures|modality|plurality|comparatives|Mandarin syntax|focus" | split: "|" %}
+{% assign output_by_date = site.data.output | sort: "date" | reverse %}
+{% for topic in topics %}
+  <h2 id="{{ topic | slugify }}">{{ topic | capitalize }}</h2>
 <table>
   <colgroup>
     <col style="width:5ex">
@@ -11,37 +13,36 @@ title: Research - Haoming Li
     <col>
   </colgroup>  
   <tbody>
-    {% for item in section.papers %}
-    <tr>
-      <td class="date">{{ item.year }}</td>
-      <!-- <td>{{ item.month }}</td> -->
+    {% for item in output_by_date %}
+      {% if item.topics contains topic %}
+      <tr>
+      <td class="date">{{ item.date | slice: 0, 4 }}</td>
       <!-- <td>&nbsp;&nbsp;&nbsp;</td> -->
       <td>
         <b class="title">{{ item.title }}</b>
-        {% if section.section == "Journal Articles" %}
-        <br><em>{{ item.publication }}</em>
-        {% else %}
-        <br>{{ item.publication }}
-        {% endif %}
+        {% if item.category == "Journal Article" %}
+          <br><em>{{ item.publication }}</em>
+      {% else %}
+          <br>{{ item.publication }}
+      {% endif %}
         {% if item.author %}
-        <br>With {{ item.author }}
-        {% endif %}
+          <br>With {{ item.author }}
+      {% endif %}
         {% if item.supervisor %}
-        <br>Supervisor: {{ item.supervisor }}
-        {% endif %}
+          <br>Supervisor: {{ item.supervisor }}
+      {% endif %}
       </td>
       <td>
         {% for entry in item.resources %}
-        {%- if forloop.index != 1 -%}
-        <br>
-        {%- endif -%}
+          {%- if forloop.index != 1 -%}
+          <br>
+      {%- endif -%}
         <a href="{{ entry.url }}">{{ entry.type }}</a>
-        {% endfor %}
+      {% endfor %}
       </td>
-    </tr>
-    {% endfor %}
+      </tr>
+    {% endif %}
+  {% endfor %}
   </tbody>
 </table>
 {% endfor %}
-
-
