@@ -18,15 +18,17 @@
   resources:
     - type: slides
       url: /files/salt_bare_plurals.pdf
-- title: Modal presupposition and probability-sensitivity of negated indefinites
+- title: Oddness and probability-sensitivity of number-marked indefinites in negation and questions
   category: Talk
-  topics: [implicatures]
+  topics: [plurality, focus, implicatures]
   date: "2025-09"
   publication: Sinn und Bedeutung 30
   author: Yizhen Jiang
   resources:
     - type: paper
       url: /files/modal_sub.pdf
+    - type: link
+      url: https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/view/1360
 - title: "Passamaquoddy quantifiers: Outlier of distributivity-number generalization?"
   category: Talk
   topics: [plurality]
@@ -36,6 +38,8 @@
   resources:
     - type: paper
       url: /files/sub_passamaquoddy.pdf
+    - type: link
+      url: https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/view/1361
 - title: "How to talk about groups in a language without group nouns: The case of Passamaquoddy"
   category: Talk
   topics: [plurality]
@@ -81,6 +85,8 @@
       url: /files/permission_sub_paper.pdf
     - type: poster
       url: /files/permission_sub_poster.pdf
+    - type: link
+      url: https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/view/1252
 - title: <i>Dou</i> as <i>even</i> and plural universal quantification in Mandarin Chinese
   category: Talk
   topics: [plurality, Mandarin syntax, focus]
@@ -102,7 +108,7 @@
     - type: handout
       url: /files/WCCFL_Handout.pdf
   author: Zhouyi Sun
-- title: The syntax and semantics of Chinese asymmetric Across-the-Board construction
+- title: The syntax and semantics of Chinese asymmetric Across-the-Board constructions
   category: Talk
   topics: [Mandarin syntax]
   date: "2023-01"

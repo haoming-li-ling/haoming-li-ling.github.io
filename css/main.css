@@ -79,8 +79,9 @@ footer ul li {
 }
 
 .topic-nav-list {
-	display: none;
-	margin-top: 10px;
+  display: none;
+  margin: 0;
+  padding: 10px 12px 4px;
 }
 
 .topics-nav:hover .topic-nav-list,
@@ -89,9 +90,23 @@ footer ul li {
 }
 
 .topic-nav-list li {
-	display: block;
-	margin: 0 0 6px;
-	font-weight: normal;
+  display: block;
+  margin: 0 0 6px;
+  font-weight: normal;
+}
+
+@media (max-width: 959px) {
+  .topics-nav {
+    position: relative;
+  }
+
+  .topic-nav-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    min-width: 150px;
+  }
 }
 
 @media (min-width: 960px) {
@@ -187,6 +202,10 @@ ul.posts li {
 table {
 	width: 100%;
 	border-spacing: 5px;
+}
+
+.output-list {
+	border-spacing: 5px 8px;
 }
 
 td,
