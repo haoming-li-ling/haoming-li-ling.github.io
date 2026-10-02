@@ -8,12 +8,15 @@ I'm a fifth-year Ph.D. student in linguistics at the Massachusetts Institute of 
 My main areas of interest are semantics, pragmatics, syntax, and their interfaces. 
 
 Specific topics I have covered include:
-- modals of permission
+- modality
 - free choice
+- presupposition
+- aspect
 - inferences of number marking
+- question-answer congruence
 - distributivity
 - universal quantifiers
-- _even_
+- _even_, _dou_
 - comparatives
 - Across-the-Board constructions
 - *wh*-questions
