@@ -1,3 +1,11 @@
+- title: "Conditional semantics for modals"
+  category: Manuscript
+  topics: ["modality", "conditionals", "implicatures"]
+  date: "2026"
+  publication: MIT
+  resources:
+    - type: paper
+      url: /files/semantic_fc_paper.pdf
 - title: "Assertion and presupposition of change-of-state items"
   category: Manuscript
   topics: ["presupposition", "aspect"]
