@@ -1,3 +1,19 @@
+- title: "Assertion and presupposition of change-of-state items"
+  category: Manuscript
+  topics: ["presupposition", "aspect"]
+  date: 2026
+  publication: MIT
+  resources:
+    - type: paper
+      url: /files/cos_draft.pdf
+- title: "Obligatory adjuncts and facilitators: The view from passives, topicalization, and potentially middles"
+  cateogory: Manuscript
+  topics: ["focus", "implicatures", "Mandarin syntax"]
+  date: 2026
+  publication: MIT
+  resources:
+    - type: paper
+      url: /files/anti_locality_draft.pdf
 - title: "Moving heads to specifiers: Evidence from Mandarin multiple pre-subject modals"
   category: Journal Article
   topics: [modality, Mandarin syntax]
