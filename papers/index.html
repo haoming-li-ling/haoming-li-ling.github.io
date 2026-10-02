@@ -2,7 +2,7 @@
 layout: default
 title: Research - Haoming Li
 ---
-{% assign topics = "implicatures|modality|plurality|comparatives|Mandarin syntax|focus" | split: "|" %}
+{% assign topics = "implicatures|presupposition|modality|plurality|comparatives|Mandarin syntax|focus" | split: "|" %}
 {% assign output_by_date = site.data.output | sort: "date" | reverse %}
 {% for topic in topics %}
   <h2 id="{{ topic | slugify }}">{{ topic | capitalize }}</h2>
