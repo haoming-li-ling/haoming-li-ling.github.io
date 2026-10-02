@@ -2,7 +2,7 @@
   category: Manuscript
   topics: ["modality", "conditionals", "implicatures"]
   date: "2026"
-  publication: MIT
+  publication: Manuscript, MIT
   resources:
     - type: paper
       url: /files/semantic_fc_paper.pdf
@@ -10,7 +10,7 @@
   category: Manuscript
   topics: ["presupposition", "aspect"]
   date: "2026"
-  publication: MIT
+  publication: Manuscript, MIT
   resources:
     - type: paper
       url: /files/cos_draft.pdf
@@ -18,7 +18,7 @@
   category: Manuscript
   topics: ["focus", "implicatures", "Mandarin syntax"]
   date: "2026"
-  publication: MIT
+  publication: Manuscript, MIT
   resources:
     - type: paper
       url: /files/anti_locality_draft.pdf
