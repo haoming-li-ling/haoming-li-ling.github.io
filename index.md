@@ -23,7 +23,7 @@ Specific topics I have covered include:
 
 {% assign output_by_category = site.data.output | group_by: "category" %}
 {% for section in output_by_category %}
-<h2>{% if section.name == "Journal Article" %}Journal Articles{% elsif section.name == "Talk" %}Talks{% else %}{{ section.name }}{% endif %}</h2>
+<h2>{% if section.name == "Journal Article" %}Journal Articles{% elsif section.name == "Talk" %}Talks{% elsif section.name == "Manuscript" %}Manuscripts{% else %}{{ section.name }}{% endif %}</h2>
 <table class="output-list">
   <colgroup>
     <col style="width:5ex">
